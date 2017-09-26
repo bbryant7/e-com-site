@@ -10,11 +10,11 @@ export default class BaseLayout extends Component {
             <div className="navbar-header">
 
                 <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/'> <span className="splash">E-Com.COM</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/garden'> <span>Garden</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/kitchen'> <span>Kitchen</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/Living'> <span> Living </span></NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/garden'> <span>Garden</span></NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/kitchen'> <span>Kitchen</span></NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/living'> <span> Living </span></NavLink>
                 <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/about'> <span>About Us</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/contact'> <span>Contact</span></NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/contact'> <span>Contact</span></NavLink>
 
             </div>
           </div>

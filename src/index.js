@@ -18,7 +18,7 @@ ReactDOM.render(
    <BaseLayout>
       <Switch>
         <Route exact path="/" component={App}/>
-        <Route path="/Garden" component={Garden}/>
+        <Route path="/garden" component={Garden}/>
         <Route path="/kitchen" component={Kitchen}/>
         <Route path="/living" component={Living}/>
         <Route path="/contact" component={Contact}/>

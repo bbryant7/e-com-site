@@ -38,7 +38,7 @@ export default class About extends Component {
         </p>
       </div>
       <Link to="/contact">
-          <button className="about-button"> Conact Us</button>
+          <button className="about-button"> Contact Us</button>
         </Link>
       </div>
     );

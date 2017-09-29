@@ -41,16 +41,18 @@ const inventory = [{
   "price": "$400.00"
 },
 {
-  "category": "garden",
+  "category": "kitchen",
   "image": "https://ashleyfurniture.scene7.com/is/image/AshleyFurniture/D307-130-10x8-CROP?$AFHS-PDP-Thumb-1X$",
-  "description": "Kick back and relax under the stars. The Peachstone 5-piece outdoor fire pit chat set has the woodsy look you love with none of the worries about deteriorating in the outdoor air. Spacious lounge chairs swivel in and out of the conversation. All-weather Nuvella™ cushions stay bright looking in every climate. Fire pit ignites with a simple press of a button.",
+  "description": "Rustic in feel with modern appeal, the Challiman pub height bar stool is styled with fascinating flair. Veneered plank table surface serves up cool distressed character. Sculptural legs punctuated by L-shape feet form the industrial-inspired base.",
   "price": "$400.00"
 },
 {
-  "category": "garden",
+  "category": "kitchen",
   "image": "https://ashleyfurniture.scene7.com/is/image/AshleyFurniture/APG-P655-5FP-10X8-CROP?$AFHS-PDP-Thumb-1X$",
   "description": "Rustic in feel with modern appeal, the Challiman pub height bar stool is styled with fascinating flair. Veneered plank table surface serves up cool distressed character. Sculptural legs punctuated by L-shape feet form the industrial-inspired base",
   "price": "$400.00"
 },
 
 ]
+
+export default inventory;

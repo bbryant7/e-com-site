@@ -9,21 +9,20 @@ export default class BaseLayout extends Component {
           <div className="container-fluid">
             <div className="navbar-header">
 
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/'> <span className="splash">E-Com.COM</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/garden'> <span>Garden</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/kitchen'> <span>Kitchen</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/living'> <span> Living </span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" exact to='/about'> <span>About Us</span></NavLink>
-                <NavLink activeClassName="selected"  activeStyle={{color: "#FAD334"}} className="nav-link" to='/contact'> <span>Contact</span></NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{color: "#260468"}} className="nav-link" exact to='/'> <span className="splash">Online Furniture</span></NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/garden'> Garden</NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/kitchen'>Kitchen</NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/living'>Living </NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black",color:"white"}} className="nav-link" exact to='/about'> About Us</NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/contact'> Contact</NavLink>
 
             </div>
           </div>
         </nav>
         {this.props.children}
-        <footer className="col-lg-12">
-          <span>
-            E-com.COM
-          </span>
+        <footer>
+        <p> Online Furniture </p>
+
         </footer>
       </div>
     );

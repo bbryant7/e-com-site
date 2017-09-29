@@ -36,6 +36,9 @@ export default class Contact extends Component {
             <p> sales@baileysfurniturestore.com </p>
           </a></div>
         </div>
+        <Link to="/about">
+            <button> About Us</button>
+          </Link>
       </div>
     );
   }

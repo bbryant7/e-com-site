@@ -37,6 +37,9 @@ export default class About extends Component {
           money and resources to helping people live a better life.
         </p>
       </div>
+      <Link to="/contact">
+          <button className="about-button"> Conact Us</button>
+        </Link>
       </div>
     );
   }

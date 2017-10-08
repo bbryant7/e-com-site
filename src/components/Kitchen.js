@@ -14,7 +14,9 @@ export default class Kitchen extends Component {
           <img src={item.image} alt="" />
           <p>{item.description}</p>
           <p>{item.price}</p>
-          <button>Purchase</button>
+          <Link to="/MyCart">
+              <button>Purchase</button>
+            </Link>
         </div>
 
       );

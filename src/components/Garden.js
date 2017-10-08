@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import inventory from "../Data/inventory.js";
-console.log("hi");
 
 
 

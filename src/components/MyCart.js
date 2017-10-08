@@ -13,8 +13,6 @@ export default class MyCart extends Component {
     return (
       <div>
       <h1>View Cart</h1>
-      <hr></hr>
-      <p>Save items</p>;
       </div>
     )
   }

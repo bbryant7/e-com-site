@@ -19,7 +19,10 @@ export default class Garden extends Component {
           <img src={item.image} alt="" />
           <p>{item.description}</p>
           <p>{item.price}</p>
-            <button>Purchase</button>
+          <Link to="/MyCart">
+              <button>Purchase</button>
+            </Link>
+
         </div>
 
       );
@@ -35,12 +38,3 @@ export default class Garden extends Component {
     )
   }
 }
-
-
-// constructor(props){
-//   super(props)
-//   this.state = {
-//   inventory: inventory,
-//   }
-//   console.log(this.state.inventory)
-// }

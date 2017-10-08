@@ -15,6 +15,8 @@ export default class BaseLayout extends Component {
                 <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/living'>Living </NavLink>
                 <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black",color:"white"}} className="nav-link" exact to='/about'> About Us</NavLink>
                 <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/contact'> Contact</NavLink>
+                <NavLink activeClassName="selected"  activeStyle={{backgroundColor: "black", color:"white"}} className="nav-link" to='/MyCart'> MyCart</NavLink>
+
 
             </div>
           </div>

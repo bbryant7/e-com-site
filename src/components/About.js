@@ -11,7 +11,7 @@ export default class About extends Component {
 
         <h1> About </h1>
         <div className="about-body">
-        <h3> Celebrating your home</h3>
+        <h3> Celebrating Your Home</h3>
         <p>
           Your home is more than a house, it’s the daily moments and experiences
           you share that make it uniquely you. At Online Furniture, we celebrate
@@ -30,7 +30,7 @@ export default class About extends Component {
           before to find exactly what you want for your home at a price you can
           afford.
         </p>
-        <h3> Were Giving Back</h3>
+        <h3> We're Giving Back</h3>
         <p>
           As a global citizen, Online Furniture places great value on the people
           and families who make up a community. Every year, we donate our time,
